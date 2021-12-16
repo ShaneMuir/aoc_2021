@@ -1,9 +1,7 @@
 from aocd.models import Puzzle
 from aocd import submit
 day_1 = Puzzle(year=2021, day=1)
-day_2 = Puzzle(year=2021, day=2)
 my_data = day_1.input_data
-my_data_day_2 = day_2.input_data
 
 def puzzle_one():
 	""" algorithm for puzzle one part 1 aoc"""
