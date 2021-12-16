@@ -24,7 +24,6 @@ def puzzle_one():
 
 def puzzle_one_part_two():
 	numbers = []
-	counter = 0
 
 	for line in my_data.splitlines():
 		numbers.append(int(line))
@@ -35,6 +34,4 @@ def puzzle_one_part_two():
 		)
 
 	submit(count, part="b", day=1, year=2021) # Correct ONTO puzzle 2
-
-print(my_data_day_2)
 
